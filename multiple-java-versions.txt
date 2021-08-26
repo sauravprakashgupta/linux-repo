@@ -1,0 +1,12 @@
+To check all the available versions of Java in your linux system
+================================================================
+
+Note: you can try this with other softwares as well
+
+> java --version
+> sudo /usr/sbin/alternatives --config java
+
+This will list all the available versions of java on your system. with '+' indicating the current active version.
+This will ask you to enter the row number to choose which version to be used. Select what you need and then check again
+
+> java --version
